@@ -11,7 +11,10 @@
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5NR9672');</script>
+        })(window,document,'script','dataLayer','GTM-5NR9672');
+        
+        ga("create", trackingId, 'auto', { cookieFlags: "SameSite=None; Secure" });
+        </script>
 </head>
 <body>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NR9672"
@@ -30,17 +33,6 @@
 
         <div class="iframe-view">
 
-        </div>
-
-        <p>Static iframe below</p>
-
-        <div class="iframe-static">
-            <iframe src='http://localhost:4200/published-app/fc1e4bc9-d315-4310-1b32-08da7b7c63cc'
-                    id='iFrame'
-                    height='1090'
-                    width='640'>
-            <p>Your browser does not support iframes.</p>
-    </iframe>
         </div>
     </div>
 
